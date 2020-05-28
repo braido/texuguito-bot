@@ -1,0 +1,60 @@
+{
+    "superMigues": [
+    ],
+    "migues": [
+        {
+            "numero": 1,
+            "texto": "WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAT"
+        },
+        {
+            "numero": 2,
+            "texto": "Não entendi {{SENDAUTHOR}}, ajuda o papi aí .. :thinking: "
+        },
+        {
+            "numero": 3,
+            "texto": "Tenta reformular a frase {{SENDAUTHOR}}, assim não dá :rolling_eyes: "
+        },
+        {
+            "numero": 4,
+            "texto": "Dilma é você?? {{SENDAUTHOR}}"
+        },
+        {
+            "numero": 5,
+            "texto": "Não entendi nada {{SENDAUTHOR}}... Mas e aí, alguem aqui apontou as horas no Goobee? :bee: "
+        },
+        {
+            "numero": 6,
+            "texto": "Não consegué, né Moisés :expressionless: {{SENDAUTHOR}}, tenta escrever de outro jeito ai "
+        },
+        {
+            "numero": 7,
+            "texto": "https://tenor.com/2mle.gif"
+        },
+        {
+            "numero": 8,
+            "texto": "[Hit](http://nooooooooooooooo.com/)"
+        },
+        {
+            "numero": 9,
+            "texto": " {{SENDAUTHOR}}, quer pastel vai na feira!!! :taco: "
+        }
+    ],
+    "miguesPrivado": [
+        {
+            "numero": 1,
+            "texto": "WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAT"
+        },
+        {
+            "numero": 2,
+            "texto": "Só posso atender pedidos nos canais oficiais BB, me chama lá :kissing_heart: "
+        },
+        {
+            "numero": 3,
+            "texto": "Pastel é só na feira, me respeita .."
+        },
+        {
+            "numero": 8,
+            "texto": "[Hit](http://nooooooooooooooo.com/)"
+        }
+    ]
+}

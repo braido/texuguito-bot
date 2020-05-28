@@ -1,0 +1,102 @@
+{
+    "intencoes": [
+        {
+            "acao": {
+                "chave": "NA"
+            },
+            "padraoIntencao": {
+                "expressoesRegular": [
+                    "(tudo )(.*)(bem)",
+                    "oi{1,}\\W{0,}$"
+                ]
+            },
+            "respostas": [
+                {
+                    "numero": 1,
+                    "texto": "Oii :call_me: "
+                },
+                {
+                    "numero": 2,
+                    "texto": "NÓIS QUE TA PARÇA :sunglasses:  "
+                },
+                {
+                    "numero": 3,
+                    "texto": "Eaaaeeee :wave: "
+                },
+                {
+                    "numero": 4,
+                    "texto": "KOÉ RAPAZIAAAAAAAAAAAADAAAAAAA :loudspeaker: "
+                },
+                {
+                    "numero": 4,
+                    "texto": "Saaalve quebrada :gun: :sunglasses: :point_right: "
+                }
+            ]
+        },
+        {
+            "acao": {
+                "chave": "ALTERASENTIMENTO_TRISTE",
+                "service": "ALTERASENTIMENTO",
+                "args": [ 3 ]
+            },
+            "padraoIntencao": {
+                "expressoesRegular": [
+                    "(triste)",
+                    "(put)",
+                    "(pistol)"
+                ]
+            },
+            "respostas": [
+                {
+                    "numero": 1,
+                    "texto": "Que pena, não fique assim, as coisas vão melhorar, {{SENDAUTHOR}}. Já publiquei seu novo humor."
+                }
+            ]
+        },
+        {
+            "acao": {
+                "chave": "ALTERASENTIMENTO_NEUTRO",
+                "service": "ALTERASENTIMENTO",
+                "args": [ 2 ]
+            },
+            "padraoIntencao": {
+                "expressoesRegular": [
+                    "(neutro)",
+                    "(normal)",
+                    "(regular)",
+                    "(mai)(.*)(menos)"
+                ]
+            },
+            "respostas": [
+                {
+                    "numero": 1,
+                    "texto": "Tudo bem, espero que as coisas possam melhorar, {{SENDAUTHOR}}. Já publiquei seu novo humor."
+                }
+            ]
+        },
+        {
+            "acao": {
+                "chave": "ALTERASENTIMENTO_FELIZ",
+                "service": "ALTERASENTIMENTO",
+                "args": [ 1 ]
+            },
+            "padraoIntencao": {
+                "expressoesRegular": [
+                    "(feliz)",
+                    "(alegr)",
+                    "(content)",
+                    "(sorri)"
+                ]
+            },
+            "respostas": [
+                {
+                    "numero": 1,
+                    "texto": "Que bom que você está feliz hoje, {{SENDAUTHOR}}. Essa alegria contagia. Estou publicando sua alegia."
+                }
+            ]
+        }
+    ],
+    "intencoesPrivado": [
+        
+    ]
+}
